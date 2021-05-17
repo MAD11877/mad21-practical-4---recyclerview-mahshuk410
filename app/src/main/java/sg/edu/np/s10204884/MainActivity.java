@@ -1,21 +1,14 @@
 package sg.edu.np.s10204884;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.net.wifi.p2p.WifiP2pManager;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -35,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         TextView descText = findViewById(R.id.loremText);
         descText.setText(desc);
 
-        Button followButton = findViewById(R.id.FollowButton);
+        Button followButton = findViewById(R.id.btnFollow);
 
 
        followButton.setOnClickListener(new View.OnClickListener() {
