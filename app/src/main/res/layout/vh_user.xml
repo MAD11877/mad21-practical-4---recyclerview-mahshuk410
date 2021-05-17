@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/androidImg"
+        android:id="@+id/img_profile"
         android:layout_width="122dp"
         android:layout_height="122dp"
         android:layout_marginStart="15dp"
