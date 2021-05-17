@@ -39,12 +39,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UserViewHolder> {
         User u = userList.get(position);
         holder.Name.setText(u.getName());
         holder.Description.setText(u.getDescription());
-        holder.AndroidImg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                createDialog(context,u);
-            }
-        });
+        holder.AndroidImg.setOnClickListener(v -> createDialog(context,u));
     }
 
     @Override
